@@ -1,0 +1,27 @@
+*{
+    color:white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation-bar{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    padding-inline:40px;
+    margin-block:15px;
+    font-size:large;
+}
+.logout-btn{
+    background-color:rgb(245, 32, 32);
+    font-size:large;
+    font-weight:600;
+    padding:4px;
+    border-radius:5px;
+    outline:none;
+    border:none;
+}
+.username{
+    font-size:30px;
+    font-weight:600;
+}

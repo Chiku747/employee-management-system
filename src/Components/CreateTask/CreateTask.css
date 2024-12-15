@@ -1,0 +1,41 @@
+.main-task-container{
+    width:100%;
+    padding:10px;
+    height:auto;
+}
+.add-task-form-group{
+    display:flex;
+    justify-content: space-between;
+    height:auto;
+}
+.input-group-1{
+    width: 50%;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+.input-group-2{
+    display:flex;
+    flex-direction:column;
+}
+.input-group-2 > textarea{
+    padding:3px;
+    border:2px solid gray;
+    outline:none;
+    border-radius:5px;
+    resize: none;
+}
+.input-group-1 > input{
+    padding:2px;
+    border:2px solid gray;
+    border-radius:5px;
+    outline:none;
+}
+.add-task-btn{
+    background-color:rgb(19, 160, 19);
+    padding:5px;
+    border-radius:5px;
+    outline:none;
+    border:none;
+    margin-block:6px;
+}

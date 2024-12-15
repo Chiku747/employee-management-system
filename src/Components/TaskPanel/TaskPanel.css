@@ -1,0 +1,39 @@
+.task-panel{
+    width:100%;
+    display:flex;
+    gap:20px;
+    justify-content: space-evenly;
+    padding-inline:10px;
+   
+}
+.task-panel div{
+    background-color:green;
+    width:260px;
+    height:140px;
+    border-radius:5px;
+}
+.task-panel div:nth-child(2){
+    background-color:rgb(56, 56, 185);
+}
+.task-panel div:nth-child(3){
+    background-color:rgb(205, 218, 35);
+}
+.task-panel div:nth-child(3) p{
+    color:black;
+}
+.task-panel div:nth-child(4){
+    background-color:rgb(31, 167, 201);
+}
+.task-panel div p{
+    background-color:transparent;
+}
+.task-panel div p:nth-child(1){
+    font-size:60px;
+    font-weight:600;
+    padding-inline:8px;
+}
+.task-panel div p:nth-child(2){
+    font-size:25px;
+    font-weight:600;
+    padding-inline:8px;
+}

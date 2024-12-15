@@ -1,0 +1,36 @@
+.main{
+    width: 350px;
+    height:310px;
+    border:2px solid green;
+    border-radius:6px;
+    margin:auto;
+    transform: translateY(50%);
+
+}
+.main h2{
+    text-align:center;
+    margin:7px;
+    font-weight:600;
+}
+.main form{
+    margin-top:50px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:15px;
+}
+.main form input{
+    width:260px;
+    color:white;
+    border-radius:13px;
+    border:2px solid green;
+    outline:none;
+    padding:5px;
+}
+.signup-btn{
+    /* background-color: green; */
+    width:80px;
+    font-weight:700;
+    font-size:16px;
+    cursor:pointer;
+}

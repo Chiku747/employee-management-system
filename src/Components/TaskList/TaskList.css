@@ -1,0 +1,15 @@
+.task-list-container{
+    width:100%;
+    height: 70vh;
+    /* border:2px solid red; */
+    margin-block:80px;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    flex-wrap:wrap;
+    overflow-x: scroll;
+}
+.task-list-container::-webkit-scrollbar{
+    display:none;
+}

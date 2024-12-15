@@ -1,0 +1,51 @@
+
+.task-card{
+    background-color:rgb(57, 57, 201);
+    width:300px;
+    /* max-height:500px; */
+    border-radius:4px;
+    padding:10px;
+}
+.task-card div,p{
+    background:transparent;
+}
+.card-top{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    padding-inline:10px;
+    padding-block:10px;
+}
+.card-top p:nth-child(1){
+    background:#02020285;
+    padding-inline:14px;
+    padding-block:2px;
+    border-radius:3px;
+}
+.heading{
+    font-weight:600;
+    font-size:22px;
+}
+.card-bottom{
+    display:flex;
+    justify-content: space-around;
+    border:none;
+    outline:none;
+    cursor:pointer;
+}
+.card-bottom-btn{
+    outline:none;
+    border-radius:2px;
+    padding:2px;    
+    cursor:pointer;
+    border:none;
+}
+.card-bottom button:nth-child(1){
+    background-color:rgb(156, 17, 236);
+}
+.card-bottom button:nth-child(2){
+    background-color:rgb(40, 148, 13);
+}
+.card-bottom button:nth-child(3){
+    background-color:rgb(207, 27, 27);
+}
